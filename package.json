@@ -1,0 +1,33 @@
+{
+  "name": "mightyshare",
+  "version": "1.0.0",
+  "description": "Generate social share images with Node.js using MightyShare.io API.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyshare/webscreenshot-node.git"
+  },
+  "keywords": [
+    "mightyshare",
+    "mightyshare.io",
+    "open graph",
+    "social share images",
+    "screenshots",
+    "screenshot",
+    "phantomjs",
+    "chrome",
+    "headless",
+    "puppeteer",
+    "url2png"
+  ],
+  "author": "Andy Feliciotti",
+  "license": "ISC",
+  "homepage": "https://mightyshare.io/",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "qs": "^6.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mightyshare/mightyshare-node/issues"
+  }
+}
