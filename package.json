@@ -1,6 +1,6 @@
 {
   "name": "mightyshare",
-  "version": "1.0.2.1",
+  "version": "1.0.3",
   "description": "Generate social share images with Node.js using MightyShare.io API.",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,8 @@
   "homepage": "https://mightyshare.io",
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "qs": "^6.11.0"
+    "qs": "^6.11.0",
+    "rawurlencode": "^1.0.2"
   },
   "bugs": {
     "url": "https://github.com/mightyshare/mightyshare-node/issues"

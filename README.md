@@ -1,5 +1,7 @@
 # MightyShare.io Social Share Image API
 
+Generate social share images for your blog posts, articles, and more with MightyShare. Our easy to use API allows you to generate images with text, colors, and images. Perfect for setting your open graph tags on your website.
+
 Sign up for an API key and secret at [MightyShare.io](https://MightyShare.io).
 
 ## Installation
