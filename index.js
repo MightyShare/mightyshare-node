@@ -8,7 +8,7 @@ module.exports = (apikey, prefix = DEFAULT_ENDPOINT) => {
 	const apiSecret = apikey.substr( 16, 32 );
   return {
     generateUrl: options => {
-      const query = qs.stringify(options);
+      const query = qs.stringify(options, { depth: 1 });
       if (apiSecret) {
         const token = generateApiToken(query, apiSecret);
         return `${prefix}${apiKey}/${token}/${options.format || 'jpeg'}?${query}`;
