@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mightyshare/webscreenshot-node.git"
+    "url": "git+https://github.com/mightyshare/mightyshare-node.git"
   },
   "keywords": [
     "mightyshare",
@@ -22,7 +22,7 @@
   ],
   "author": "Andy Feliciotti",
   "license": "ISC",
-  "homepage": "https://mightyshare.io/",
+  "homepage": "https://mightyshare.io",
   "dependencies": {
     "crypto-js": "^4.1.1",
     "qs": "^6.11.0"
