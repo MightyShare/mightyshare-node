@@ -11,10 +11,10 @@ npm install mightyshare
 ## Node.js Usage Example
 
 ```js
-import mightyshare from 'mightyshare';
+import MightyShare from 'mightyshare';
 
 // API key from MightyShare.io
-const mightyshare = mightyshare(API_KEY);
+const mightyshare = MightyShare(API_KEY);
 
 const options = {
   height: 630,
